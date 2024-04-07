@@ -1,10 +1,10 @@
 import 'model/rectangle_model.dart';
 
 void main() {
-  Rectangle perimetr = Rectangle(
+  Rectangle PerimetrArea = Rectangle(
     width: 3.45,
     heigh: 4.56,
   );
-
-  print('${perimetr.heigh}, ${perimetr.width}');
+  PerimetrArea.perimetr();
+  PerimetrArea.area();
 }
